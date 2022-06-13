@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S1-16</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    
+    <body>
+    <header class="cabeca">
+        <figure class="logo"></figure>
+    </header>
+    <aside>
+    <section class="shopping-cart">
+      <h3>Carrinho de Compras</h3>
+      <div class="listaDeProdutosCC">
+        <div id="box-aviso">
+          <figure></figure>
+          <p>Por enquanto não temos produtos no carrinho</p>
+        </div>
+      </div>
+      <div id="somar" class="esconder">
+        <ul>
+          <li>
+            <p><strong>Quantidade:</strong></p>
+            <p id="quantidade-total">2</p>
+          </li>
+          <li>
+            <p><strong>Total:</strong></p>
+            <p id="valor-total">R$ 200.00</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </aside>
+    <main class="principal">
+        <nav>
+          <div class="buttons">
+            <button id="button_01" class="menu">Todos Produtos</button>
+            <button id="button_02" class="menu">Hortifruti</button>
+            <button id="button_03" class="menu">Panificadora</button>
+            <button id="button_04" class="menu">Laticínios</button>
+          </div>
+          <div class="buscar">
+            <input type="text" class="text" placeholder="Pesquisar por">
+            <button class="pesquisa"></button>
+        </div>
+        </nav>
+        
+        <div class="somaTotal">
+            <p class="textoValorTotal">Valor total dos produtos da sessão selecionada</p>
+            <div class="valorTotal"></div>
+        </div>
+    </main>
+        <script src="js/dataBase.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

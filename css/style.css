@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.cabeca {
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+
+    background: #54b357;
+    box-shadow: 0px 4px 40px -20px rgba(0, 0, 0,);
+}
+figure.logo {
+    background: url(../img/logo.png) no-repeat;
+    background-size: 100%;
+    height: 55px;
+    width: 155px;
+}
+.principal {
+    position: absolute;
+    width: 857px;
+    height: 828px;
+    left: 128px;
+    top: 94px;
+
+}
+nav {
+    display: flex;
+    height: 32px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buscar {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu {
+    color: #54b357;
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #f1f3f5;
+    border: 0px solid;
+    border-radius: 4px;
+    height: 32px;
+}
+.menu:hover {
+    color: #fff;
+    background-color: #54b357;
+    font-weight: bolder;
+}
+.pesquisa {
+    margin: 5px;
+    background: url(../img/icone/pesquisa.png) no-repeat;
+    background-size: 78%;
+    background-color: #54b357;
+    border-radius: 4px;
+    border: 0px;
+    width: 40px;
+    height: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 217px;
+    margin-right: 16%;
+    align-content: space-around;
+    justify-content: flex-start;
+}
+.shopping-cart {
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-right: 12px;
+
+}
+
+.shopping-cart h3 {
+    background-color: #54b357;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+.shopping-cart-inside {
+    width: 100%;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+
+    min-height: 214px;
+    max-height: 260px;
+    background-color: #fff;
+    overflow: auto;
+
+}
+.carrinhofig{
+    width: 71px;
+    height: 71px;
+}
+.titulo-card{
+    font-weight: bold;
+}
+.conteudo{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+}
+.tipo-card{
+    color: #868E96;
+}
+
+.text {
+    background-color: #f1f3f5;
+    border: 0px solid #f1f3f5;
+    border-radius: 4px;
+    height: 32px;
+    padding-left: 12px;
+}
+.somaTotal {
+    display: flex;
+    width: 78%;
+    height: 45px;
+    margin: 3% 0% 0% 11%;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+ul {
+    
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    margin: 10px;
+}
+.icone-remover {
+    display: flex;
+    background: url(../img/icone/trash-outline.svg) no-repeat;
+    height: 18px;
+    width: 7.5px;
+
+    margin-left: 100px;
+    margin-top: 17px;
+    border: 0px solid;
+}
+
+.valorTotal {
+    margin: 5px;
+    height: 35px;
+    width: 70px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.textoValorTotal {
+    background: url(../img/icone/alert-circle.png) no-repeat;
+    background-size: 6%;
+    padding-left: 30px;
+    margin-left: 5px;
+
+}
+.produtos{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+}
+.card {
+    width: 274px;
+    height: 340px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgCard {
+    background-size: 100%;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+}
+.compra {
+    color: #54b357;
+    box-sizing: border-box;
+    width: 71px;
+    height: 29px;
+    left: 219px;
+    top: 496px;
+
+    background: rgba(18, 184, 134, 0.05);
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    border-radius: 8px;
+}
+.carrinhoCard{
+    display: flex;
+}
+#box-aviso{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow-y: scroll;
+}
+.img-card{
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
+.compra:hover {
+    color: #fff;
+    background-color: #54b357;
+    font-weight: bold;
+}
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+footer {
+        height: 55px;
+        box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-top: 420px;
+}
+.imgRodaPe {
+        background: url(../img/rodape.png) no-repeat;
+        background-size: 100%;
+        height: 55px;
+        width: 155px;
+}
+@media screen and (max-width: 780px){
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 412px;
+    }
+    .cabeca {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 412px;
+    }
+    .principal {
+            width: 380px;
+            height: 828px;
+            left: 7px;
+            right: 5px;
+            top: 94px;
+        }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 380px;
+        height: 115px;
+    }
+    .buttons {
+        display: flex;
+        margin-left: 20px;
+        overflow-x: scroll;
+        align-items: center;
+        width: 380px;
+        height: 70px;
+    }
+    .menu {
+        display: flex;
+        padding-top: 16px;
+        margin: 5px;
+        height: 60px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .pesquisa {
+        background-size: 70%;
+    }
+    .buscar {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 380px;
+    }
+    .produtos{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .somaTotal {
+        display: none;
+    
+    }
+    .shopping-cart {
+        width: 329px;
+        margin-top: 392px;
+        margin-left: 14px;
+        text-align: center;
+        
+    }
+    .textoValorTotal{
+        display: none;
+    }
+    .shopping-cart h3 {
+        background-color: #54b357;
+        border-radius: 20px 20px 0px 0px;
+    }
+    footer {
+        height: auto;
+        width: 412px;
+        box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-top: auto;
+        padding: auto;
+        
+    }
+    .textRodaPe {
+        text-align: center;
+    }
+    
+}
